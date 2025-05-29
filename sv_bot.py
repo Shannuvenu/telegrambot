@@ -8,7 +8,7 @@ import time
 from datetime import datetime
 from dotenv import load_dotenv
 import telebot
-from keep_alive import keep_alive  # for Replit hosting
+
 
 # Load environment variables
 load_dotenv()
@@ -149,8 +149,7 @@ def schedule_sips(bot, chat_id):
 # 🧠 Start scheduled SIP reminders
 schedule_sips(bot, chat_id=5520822396)
 
-# ✅ For Replit Hosting
-keep_alive()
+
 
 # 🚀 Start the bot
 print("Bot is running...")
