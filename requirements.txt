@@ -1,0 +1,5 @@
+pyTelegramBotAPI
+schedule
+yfinance
+python-dotenv
+requests

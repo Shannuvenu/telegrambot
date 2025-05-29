@@ -1,0 +1,22 @@
+{
+  "sip": [
+    { "name": "Nippon Equity", "amount": 500 },
+    { "name": "Goal SIP", "amount": 600 },
+    { "name": "ICICI Corporate Bond", "amount": 100 }
+  ],
+  "stocks": [
+    { "name": "NIFTYBEES", "qty": 7, "buy_price": 1845.55 },
+    { "name": "Groww Silver ETF", "qty": 10, "buy_price": 974.40 },
+    { "name": "Nippon India ETF Gold BeES", "qty": 11, "buy_price": 821.15 },
+    { "name": "Inox Wind", "qty": 3, "buy_price": 514.83 },
+    { "name": "Groww MOM50", "qty": 49, "buy_price": 490.00 },
+    { "name": "Suzlon Energy", "qty": 4, "buy_price": 245.96 },
+    { "name": "Ganga Forging", "qty": 23, "buy_price": 105.80 },
+    { "name": "Groww Gold ETF", "qty": 1, "buy_price": 75.59 },
+    { "name": "ICICINXT50", "qty": 1, "buy_price": 73.28 },
+    { "name": "MOM100", "qty": 1, "buy_price": 58.12 },
+    { "name": "HOC", "qty": 1, "buy_price": 36.00 },
+    { "name": "Jaiprakash Power", "qty": 1, "buy_price": 17.89 },
+    { "name": "Vikas Ecotech", "qty": 5, "buy_price": 11.90 }
+  ]
+}
