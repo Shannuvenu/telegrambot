@@ -3,3 +3,4 @@ schedule
 yfinance
 python-dotenv
 requests
+flask
