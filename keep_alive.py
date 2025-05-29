@@ -1,11 +1,11 @@
 from flask import Flask
 from threading import Thread
 
-app = Flask('')
+app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Bot is running!"
+    return "SV Portfolio Bot is LIVE!"
 
 def keep_alive():
-    Thread(target=app.run, kwargs={'host': '0.0.0.0', 'port': 8080}).start()
+    Thread(target=app.run, kwargs={"host": "0.0.0.0", "port": 8080}).start()

@@ -8,7 +8,7 @@ import time
 from datetime import datetime
 from dotenv import load_dotenv
 import telebot
-
+from keep_alive import keep_alive  # NEW LINE for Render port binding
 
 # Load environment variables
 load_dotenv()
@@ -149,7 +149,8 @@ def schedule_sips(bot, chat_id):
 # 🧠 Start scheduled SIP reminders
 schedule_sips(bot, chat_id=5520822396)
 
-
+# 🟢 Keep alive server for Render
+keep_alive()
 
 # 🚀 Start the bot
 print("Bot is running...")
