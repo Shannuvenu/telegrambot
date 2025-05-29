@@ -1,6 +1,6 @@
 pyTelegramBotAPI
-schedule
 yfinance
-python-dotenv
 requests
+schedule
+python-dotenv
 flask
